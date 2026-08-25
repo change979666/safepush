@@ -1,0 +1,33 @@
+{
+  "name": "safepush",
+  "version": "0.1.0",
+  "description": "AI-friendly safe git push with secret scanning · 中英双语 CLI + Cordis/DSH plugin",
+  "type": "module",
+  "bin": {
+    "safepush": "./safepush.mjs"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/change979666/safepush.git"
+  },
+  "keywords": [
+    "git",
+    "push",
+    "secret-scanning",
+    "security",
+    "ai-agents",
+    "cli",
+    "dsh",
+    "cordis"
+  ],
+  "files": [
+    "safepush.mjs",
+    "cordis/",
+    "README.md",
+    "LICENSE"
+  ]
+}
