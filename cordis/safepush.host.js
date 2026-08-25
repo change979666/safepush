@@ -23,6 +23,7 @@ return {
     }
 
     harness.registerTool(
+      ctx,
       harness.defineTool({
           name: 'safepush',
           description:
