@@ -20,10 +20,10 @@
 ### 安装步骤
 
 1. 把本项目 clone 到本机（或只下载 `safepush.mjs`）。
-2. 打开 [safepush.host.js](./safepush.host.js)，修改顶部常量：
+2. 指定 `safepush.mjs` 的路径。推荐设置环境变量 `SAFE_PUSH_CLI` 指向它的绝对路径；或打开 [safepush.host.js](./safepush.host.js)，把顶部回退值改为你的绝对路径：
 
    ```js
-   const SAFE_PUSH_CLI = '你的/safepush.mjs/绝对路径'
+   const SAFE_PUSH_CLI = process.env.SAFE_PUSH_CLI || '你的/safepush.mjs/绝对路径'
    ```
 
 3. 在 DSH 会话里对 Agent 说：
@@ -73,10 +73,10 @@ Registers a model Tool named `safepush` in a DSH session:
 ### Setup
 
 1. Clone this project (or just download `safepush.mjs`).
-2. Open [safepush.host.js](./safepush.host.js) and edit the constant at the top:
+2. Point to your `safepush.mjs`. Recommended: set the `SAFE_PUSH_CLI` environment variable to its absolute path; or open [safepush.host.js](./safepush.host.js) and replace the fallback at the top:
 
    ```js
-   const SAFE_PUSH_CLI = 'absolute/path/to/your/safepush.mjs'
+   const SAFE_PUSH_CLI = process.env.SAFE_PUSH_CLI || 'absolute/path/to/your/safepush.mjs'
    ```
 
 3. In a DSH session, tell your agent:

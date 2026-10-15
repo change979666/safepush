@@ -93,9 +93,11 @@ GitHub 经典/Fine-grained token · OpenRouter `sk-or-v1-*` · OpenAI 风格 `sk
 **Q: 为什么是单文件？**
 方便 AI Agent 一行命令拉取即用，也方便你读完这 400 行就知道它对你的仓库做了什么。安全工具应该可以被审计。
 
-## License
+## License & 来源
 
 [MIT](./LICENSE) © 2026 change979666
+
+本项目为原创代码，采用 MIT 许可；再分发时请保留版权与许可文本。原始仓库：https://github.com/change979666/safepush 。本仓库未捆绑第三方库 / SDK / 图标 / 字体 / 截图，因此不存在随源码一起重新授权的第三方内容。
 
 ---
 
@@ -188,6 +190,8 @@ They coexist fine. Scanning at push time keeps local iteration fast; wire this t
 **Q: Why single-file?**
 One command for any agent to fetch and run — and ~400 lines you can actually read before trusting it with your repo. Security tools should be auditable.
 
-### License
+### License & Attribution
 
 [MIT](./LICENSE) © 2026 change979666
+
+Original code, licensed under MIT. If you redistribute, please keep the copyright and license text. Original repository: https://github.com/change979666/safepush . This repo does not bundle third-party libraries / SDKs / icons / fonts / screenshots, so there is no third-party content that remains under its own separate license.
