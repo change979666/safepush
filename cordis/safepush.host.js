@@ -11,8 +11,9 @@
  * The Tool is bilingual: pass lang:"zh" or lang:"en" (default follows the CLI's auto mode).
  */
 
-// ⚙️ EDIT ME — absolute path to safepush.mjs on this machine:
-const SAFE_PUSH_CLI = 'C:/Users/Administrator/deepseek工作区/safepush/safepush.mjs'
+// ⚙️ EDIT ME — path to safepush.mjs. Set the SAFE_PUSH_CLI environment variable to its
+// absolute path, or replace the fallback below with the absolute path on your machine:
+const SAFE_PUSH_CLI = process.env.SAFE_PUSH_CLI || 'safepush.mjs'
 
 return {
   apply(ctx) {
